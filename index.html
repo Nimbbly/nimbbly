@@ -1054,25 +1054,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 
-<script>
-    $("#hire").submit(function(e) {
-  e.preventDefault();
-
-  var $form = $(this);
-  $.post($form.attr("action"), $form.serialize()).then(function() {
-    window.location = "/pages/thankyou.html/";
-  });
-});
-
-
-$("#bud").submit(function(e) {
-  e.preventDefault();
-
-  var $form = $(this);
-  $.post($form.attr("action"), $form.serialize()).then(function() {
-    window.location = "/pages/thankyou.html/";
-  });
-});
+<script src="js/forms.js">
 </script>
 
 
