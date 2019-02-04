@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Quicksand|Raleway');
+body {
+	margin-top: 0px;
+  font-family: Quicksand;
+}
+
+
+@media (max-width: 992px) {
+	header h1 {
+	  font-size: 50px;
+	  margin-top: 150px;
+	  padding: 0 10px;
+	}
+	header {
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  height: 600px;
+}
+/*---navigation---*/
+.navbars {
+	background: transparent;
+	padding-top: 20px;
+}
+.nav-button {
+  color: #000;
+  background-color: #fff;
+  border-radius: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.nav-button-alt {
+  color: #000;
+  background-color: #fff;
+  border-radius: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.navbars-alt {
+  background-color: rgba(125, 2, 118, 0.8);
+  position: fixed;
+  top: 200;
+  width: 100%;
+  transition: all 0.5s;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+/*---end---*/
+
+footer .pp {
+  padding: 10px 20px 10px 20px;
+}
+footer .abouts {
+  margin-top: 20px;
+}
+footer .abouts p {
+  font-size: 13px;
+}
+footer .servi li {
+  font-size: 13px;
+}
+
+footer .location li {
+  font-size: 13px;
+}
+
+
+}
+
+
+@media (min-width: 992px) {
+	header h1 {
+	  font-size: 60px;
+	  margin-top: 180px;
+	  padding: 0 80px;
+	}
+	header {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+/*---navigation---*/
+.navbars {
+	background: transparent;
+	padding-top: 20px;
+}
+.nav-button {
+  color: #000;
+  border: 1px solid #000;
+  background-color: #fff;
+  border-radius: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.nav-button:hover {
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+}
+.nav-button-alt {
+  color: #000;
+  background-color: #fff;
+  border-radius: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.navbars-alt {
+  background-color: rgba(125, 2, 118, 0.8);
+  position: fixed;
+  top: 200;
+  width: 100%;
+  transition: all 0.5s;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/*---end---*/
+
+
+}
+
+/*-----general style-----*/
+
+/*-----budding budbtn-----*/
+.budbtn .btn-default {
+	color: #fff;
+  	background-color: #7D0276;
+  	border-radius: 50px;
+  	padding: 15px 40px;
+  	font-size: 16px;
+  	font-weight: bold;
+  	transition: .5s;
+}
+.budbtn .btn-default:hover {
+	padding: 15px 80px;
+}
+/*-----service----*/
+#services {
+	padding: 150px 0;
+}
+/*----end----*/
+
+/*---footer----*/
+footer {
+  padding-top: 30px;
+  background-color: #501b4a;
+}
+
+footer .pp {
+  padding: 20px;
+}
+footer .abouts p {
+  font-size: 13px;
+}
+footer .servi {
+  margin-top: 35px;
+}
+footer .location {
+  margin-top: 35px;
+}
+footer .coment {
+  margin-top: 35px;
+}
+footer .servi li {
+  font-size: 13px;
+}
+
+footer .location li {
+  font-size: 13px;
+}
+
+
+footer .btn-default {
+  padding: 10px 40px;
+  color: #501b4a;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius: 50px;
+  transition: .5s;
+}
+footer .btn-default:hover {
+  padding-right: 60px;
+}
+
+
+footer i {
+  margin-right: 10px;
+  color: #fff;
+}
+footer img {
+  margin-left: -10px;
+}
+/*---end----*/
