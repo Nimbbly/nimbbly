@@ -1,480 +1,519 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>nimbbly-Hosting, Web Security & Site Maintenance</title>
+  <title>nimbbly-Hosting, Web Security & Site Maintenance</title>
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
 
-    <!-- My custom styles-->
-    <link rel="stylesheet" type="text/css" href="css/service-sheet.css">
+  <!-- My custom styles-->
+  <link rel="stylesheet" type="text/css" href="css/service-sheet.css">
 
-    <!-- My form styles-->
-    <link rel="stylesheet" type="text/css" href="css/form.css">
+  <!-- My form styles-->
+  <link rel="stylesheet" type="text/css" href="css/form.css">
 
-    <!-- My custom styles-->
-    <link rel="stylesheet" type="text/css" href="css/animated.css">
+  <!-- My custom styles-->
+  <link rel="stylesheet" type="text/css" href="css/animated.css">
 
-    <!-- Font Awesome JS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Font Awesome JS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- favicon-->
-    <link rel="shortcut icon" type="image/png" href="https://res.cloudinary.com/duw1ccgzp/image/upload/v1548947373/nimbbly/nimbbly-favicon.png">
+  <!-- favicon-->
+  <link rel="shortcut icon" type="image/png" href="https://res.cloudinary.com/duw1ccgzp/image/upload/v1548947373/nimbbly/nimbbly-favicon.png">
 
-    <!--scrollreveal-->
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <!--scrollreveal-->
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
-    <style>
+  <style>
+    header {
+      background-image: url(https://res.cloudinary.com/duw1ccgzp/image/upload/v1548947384/nimbbly/service-bannerx1.jpg);
+    }
+
+    @media (max-width: 1200px) {
       header {
-        background-image: url(https://res.cloudinary.com/duw1ccgzp/image/upload/v1548947384/nimbbly/service-bannerx1.jpg);
+        background-image: url(https://res.cloudinary.com/duw1ccgzp/image/upload/v1548947384/nimbbly/service-bannermain.jpg);
+      }
+      header h1 {
+        font-size: 40px;
+        margin-top: 120px;
+        padding: 0 20px;
       }
 
-      @media (max-width: 1200px) {
-    header {
-        background-image: url(https://res.cloudinary.com/duw1ccgzp/image/upload/v1548947384/nimbbly/service-bannermain.jpg);
+
     }
-    header h1 {
-    font-size: 40px;
-    margin-top: 120px;
-    padding: 0 20px;
-  }
+  </style>
 
+</head>
 
-}
-    </style>
+<body class="bg-light">
 
-  </head>
+  <!-- Page Content   -->
 
-  <body class="bg-light">
-
-    <!-- Page Content   -->
-
-    <!--modal hire us button-->
-    <div class="modal fade" id="ModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">Hire us</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <!-- nimbbly Form -->
-          <form>
-            <div class="modal-body">
-            
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-6">
-        <label>First Name</label>
-        <input class="form-controls" type="text" name="first-name" required="" />
-      </div>
-      <div class="col-lg-6">
-        <label>Last Name</label>
-        <input class="form-controls" type="text" name="last-name" required="" />
-      </div>
-      <div class="col-lg-7">
-        <label>Email Address</label>
-        <input class="form-controls" type="text" name="email-address" id="email" required="" />
-      </div>
-      <div class="col-lg-5">
-        <label>Work Phone</label>
-        <input class="form-controls" type="text" name="work-phone" required="" />
-      </div>
-      <div class="col-lg-5">
-        <label>Country</label>
-        <select class="form-controls" name="country" required="">
-          <option value="Select Country">Select Country</option>
-          <option value="Afghanistan">Afghanistan</option>
-          <option value="Albania">Albania</option>
-          <option value="Algeria">Algeria</option>
-          <option value="Andorra">Andorra</option>
-          <option value="Angola">Angola</option>
-          <option value="Antigua and Barbuda">Antigua and Barbuda</option>
-          <option value="Argentina">Argentina</option>
-          <option value="Armenia">Armenia</option>
-          <option value="Australia">Australia</option>
-          <option value="Austria">Austria</option>
-          <option value="Azerbaijan">Azerbaijan</option>
-          <option value="Bahrain">Bahrain</option>
-          <option value="Bangladesh">Bangladesh</option>
-          <option value="Barbados">Barbados</option>
-          <option value="Belarus">Belarus</option>
-          <option value="Belgium">Belgium</option>
-          <option value="Belize">Belize</option>
-          <option value="Benin">Benin</option>
-          <option value="Bhutan">Bhutan</option>
-          <option value="Bolivia">Bolivia</option>
-          <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
-          <option value="Botswana">Botswana</option>
-          <option value="Brazil">Brazil</option>
-          <option value="Brunei">Brunei</option>
-          <option value="Bulgaria">Bulgaria</option>
-          <option value="Burkina Faso">Burkina Faso</option>
-          <option value="Burundi">Burundi</option>
-          <option value="Cabo Verde">Cabo Verde</option>
-          <option value="Cambodia">Cambodia</option>
-          <option value="Cameroon">Cameroon</option>
-          <option value="Canada">Canada</option>
-          <option value="Central African Republic">Central African Republic</option>
-          <option value="Chad">Chad</option>
-          <option value="Chile">Chile</option>
-          <option value="China">China</option>
-          <option value="Colombia">Colombia</option>
-          <option value="Comoros">Comoros</option>
-          <option value="Congo, Democratic Republic of the">Congo, Democratic Republic of the</option>
-          <option value="Congo, Republic of the">Congo, Republic of the</option>
-          <option value="Costa Rica">Costa Rica</option>
-          <option value="C&ocirc;te d&rsquo;Ivoire">C&ocirc;te d&rsquo;Ivoire</option>
-          <option value="Croatia">Croatia</option>
-          <option value="Cuba">Cuba</option>
-          <option value="Cyprus">Cyprus</option>
-          <option value="Czech Republic">Czech Republic</option>
-          <option value="Denmark">Denmark</option>
-          <option value="Djibouti">Djibouti</option>
-          <option value="Dominica">Dominica</option>
-          <option value="Dominican Republic">Dominican Republic</option>
-          <option value="Ecuador">Ecuador</option>
-          <option value="Egypt">Egypt</option>
-          <option value="El Salvador">El Salvador</option>
-          <option value="Equatorial Guinea">Equatorial Guinea</option>
-          <option value="Eritrea">Eritrea</option>
-          <option value="Estonia">Estonia</option>
-          <option value="Ethiopia">Ethiopia</option>
-          <option value="Finland">Finland</option>
-          <option value="France">France</option>
-          <option value="Gabon">Gabon</option>
-          <option value="The Gambia">The Gambia</option>
-          <option value="Georgia">Georgia</option>
-          <option value="Germany">Germany</option>
-          <option value="Ghana">Ghana</option>
-          <option value="Greece">Greece</option>
-          <option value="Grenada">Grenada</option>
-          <option value="Guatemala">Guatemala</option>
-          <option value="Guinea">Guinea</option>
-          <option value="Guinea-Bissau">Guinea-Bissau</option>
-          <option value="Guyana">Guyana</option>
-          <option value="Haiti">Haiti</option>
-          <option value="Honduras">Honduras</option>
-          <option value="Hungary">Hungary</option>
-          <option value="Iceland">Iceland</option>
-          <option value="India">India</option>
-          <option value="Indonesia">Indonesia</option>
-          <option value="Iran">Iran</option>
-          <option value="Iraq">Iraq</option>
-          <option value="Ireland">Ireland</option>
-          <option value="Israel">Israel</option>
-          <option value="Italy">Italy</option>
-          <option value="Jamaica">Jamaica</option>
-          <option value="Japan">Japan</option>
-          <option value="Jordan">Jordan</option>
-          <option value="Kazakhstan">Kazakhstan</option>
-          <option value="Kenya">Kenya</option>
-          <option value="Kiribati">Kiribati</option>
-          <option value="Korea, North">Korea, North</option>
-          <option value="Korea, South">Korea, South</option>
-          <option value="Kosovo">Kosovo</option>
-          <option value="Kuwait">Kuwait</option>
-          <option value="Kyrgyzstan">Kyrgyzstan</option>
-          <option value="Laos">Laos</option>
-          <option value="Latvia">Latvia</option>
-          <option value="Lebanon">Lebanon</option>
-          <option value="Lesotho">Lesotho</option>
-          <option value="Liberia">Liberia</option>
-          <option value="Libya">Libya</option>
-          <option value="Liechtenstein">Liechtenstein</option>
-          <option value="Lithuania">Lithuania</option>
-          <option value="Luxembourg">Luxembourg</option>
-          <option value="Macedonia">Macedonia</option>
-          <option value="Madagascar">Madagascar</option>
-          <option value="Malawi">Malawi</option>
-          <option value="Malaysia">Malaysia</option>
-          <option value="Maldives">Maldives</option>
-          <option value="Mali">Mali</option>
-          <option value="Malta">Malta</option>
-          <option value="Marshall Islands">Marshall Islands</option>
-          <option value="Mauritania">Mauritania</option>
-          <option value="Mauritius">Mauritius</option>
-          <option value="Mexico">Mexico</option>
-          <option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
-          <option value="Moldova">Moldova</option>
-          <option value="Monaco">Monaco</option>
-          <option value="Mongolia">Mongolia</option>
-          <option value="Montenegro">Montenegro</option>
-          <option value="Morocco">Morocco</option>
-          <option value="Mozambique">Mozambique</option>
-          <option value="Myanmar (Burma)">Myanmar (Burma)</option>
-          <option value="Namibia">Namibia</option>
-          <option value="Nauru">Nauru</option>
-          <option value="Nepal">Nepal</option>
-          <option value="Netherlands">Netherlands</option>
-          <option value="New Zealand">New Zealand</option>
-          <option value="Nicaragua">Nicaragua</option>
-          <option value="Niger">Niger</option>
-          <option value="Nigeria">Nigeria</option>
-          <option value="Norway">Norway</option>
-          <option value="Oman">Oman</option>
-          <option value="Pakistan">Pakistan</option>
-          <option value="Palau">Palau</option>
-          <option value="Panama">Panama</option>
-          <option value="Papua New Guinea">Papua New Guinea</option>
-          <option value="Paraguay">Paraguay</option>
-          <option value="Peru">Peru</option>
-          <option value="Philippines">Philippines</option>
-          <option value="Poland">Poland</option>
-          <option value="Portugal">Portugal</option>
-          <option value="Qatar">Qatar</option>
-          <option value="Romania">Romania</option>
-          <option value="Russia">Russia</option>
-          <option value="Rwanda">Rwanda</option>
-          <option value="Taiwan">Taiwan</option>
-          <option value="Tajikistan">Tajikistan</option>
-          <option value="Tanzania">Tanzania</option>
-          <option value="Thailand">Thailand</option>
-          <option value="Togo">Togo</option>
-          <option value="Tonga">Tonga</option>
-          <option value="Trinidad and Tobago">Trinidad and Tobago</option>
-          <option value="Tunisia">Tunisia</option>
-          <option value="Turkey">Turkey</option>
-          <option value="Turkmenistan">Turkmenistan</option>
-          <option value="Tuvalu">Tuvalu</option>
-          <option value="Uganda">Uganda</option>
-          <option value="Ukraine">Ukraine</option>
-          <option value="United Arab Emirates">United Arab Emirates</option>
-          <option value="United Kingdom">United Kingdom</option>
-          <option value="United States">United States</option>
-          <option value="Uruguay">Uruguay</option>
-          <option value="Uzbekistan">Uzbekistan</option>
-          <option value="Vanuatu">Vanuatu</option>
-          <option value="Vatican City">Vatican City</option>
-          <option value="Venezuela">Venezuela</option>
-          <option value="Vietnam">Vietnam</option>
-          <option value="Yemen">Yemen</option>
-          <option value="Zambia">Zambia</option>
-          <option value="Zimbabwe">Zimbabwe</option>
-        </select>
-      </div>
-      <div class="col-lg-7">
-        <label>Company</label>
-        <input class="form-controls" type="text" name="company" required="" />
-      </div>
-      <div class="col-lg-6">
-        <label>Project</label>
-        <select class="form-controls" name="project" required="">
-          <option value="Select Project">Select Project</option>
-          <option value="Web development">Web development</option>
-          <option value="Mobile application development">Mobile application development</option>
-          <option value="Desktop application development">Desktop application development</option>
-          <option value="Web hosting">Web hosting</option>
-          <option value="Site maintenance">Site maintenance</option>
-          <option value="Corporate branding">Corporate branding</option>
-          <option value="Graphics design">Graphics design</option>
-        </select>
-      </div>
-      <div class="col-lg-6"></div>
-      <div class="col-lg-12">
-        <label>Project description/Message</label>
-        <textarea class="form-controls" name="message" required=""></textarea>
-      </div>
-      <div class="col-lg-12">
-        <input type="radio" name="privacy-policy" required="" /> <label>I agree to nimbbly <a href="pnp.html" target="_blank">privacy policy</a></label>
-      </div>
-
-    </div>
-  </div>
-  
-
-
-          </div>
-          <div class="modal-footer">
-    <input type="submit" value=" Send " />
-  </div>
-</form>
-<!-- nimbbly Form -->
-
+  <!--modal hire us button-->
+  <div class="modal fade" id="ModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Hire us</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
+     <!-- nimbbly Form -->
+     <form name="hire-us" id="hire" netlify-honeypot="bot-field" method="POST" netlify>
+      <div class="modal-body">
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6">
+              <label>First Name</label>
+              <input class="form-controls" type="text" name="first-name" required="" />
+            </div>
+            <div class="col-lg-6">
+              <label>Last Name</label>
+              <input class="form-controls" type="text" name="last-name" required="" />
+            </div>
+            <div class="col-lg-7">
+              <label>Email Address</label>
+              <input class="form-controls" type="text" name="email-address" id="email" required="" />
+            </div>
+            <div class="col-lg-5">
+              <label>Work Phone</label>
+              <input class="form-controls" type="text" name="work-phone" required="" />
+            </div>
+            <div class="col-lg-5">
+              <label>Country</label>
+              <select class="form-controls" name="country" required="">
+                <option value="Select Country">Select Country</option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Albania">Albania</option>
+                <option value="Algeria">Algeria</option>
+                <option value="Andorra">Andorra</option>
+                <option value="Angola">Angola</option>
+                <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Australia">Australia</option>
+                <option value="Austria">Austria</option>
+                <option value="Azerbaijan">Azerbaijan</option>
+                <option value="Bahrain">Bahrain</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Barbados">Barbados</option>
+                <option value="Belarus">Belarus</option>
+                <option value="Belgium">Belgium</option>
+                <option value="Belize">Belize</option>
+                <option value="Benin">Benin</option>
+                <option value="Bhutan">Bhutan</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                <option value="Botswana">Botswana</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Brunei">Brunei</option>
+                <option value="Bulgaria">Bulgaria</option>
+                <option value="Burkina Faso">Burkina Faso</option>
+                <option value="Burundi">Burundi</option>
+                <option value="Cabo Verde">Cabo Verde</option>
+                <option value="Cambodia">Cambodia</option>
+                <option value="Cameroon">Cameroon</option>
+                <option value="Canada">Canada</option>
+                <option value="Central African Republic">Central African Republic</option>
+                <option value="Chad">Chad</option>
+                <option value="Chile">Chile</option>
+                <option value="China">China</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Comoros">Comoros</option>
+                <option value="Congo, Democratic Republic of the">Congo, Democratic Republic of the</option>
+                <option value="Congo, Republic of the">Congo, Republic of the</option>
+                <option value="Costa Rica">Costa Rica</option>
+                <option value="C&ocirc;te d&rsquo;Ivoire">C&ocirc;te d&rsquo;Ivoire</option>
+                <option value="Croatia">Croatia</option>
+                <option value="Cuba">Cuba</option>
+                <option value="Cyprus">Cyprus</option>
+                <option value="Czech Republic">Czech Republic</option>
+                <option value="Denmark">Denmark</option>
+                <option value="Djibouti">Djibouti</option>
+                <option value="Dominica">Dominica</option>
+                <option value="Dominican Republic">Dominican Republic</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Egypt">Egypt</option>
+                <option value="El Salvador">El Salvador</option>
+                <option value="Equatorial Guinea">Equatorial Guinea</option>
+                <option value="Eritrea">Eritrea</option>
+                <option value="Estonia">Estonia</option>
+                <option value="Ethiopia">Ethiopia</option>
+                <option value="Finland">Finland</option>
+                <option value="France">France</option>
+                <option value="Gabon">Gabon</option>
+                <option value="The Gambia">The Gambia</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Germany">Germany</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Greece">Greece</option>
+                <option value="Grenada">Grenada</option>
+                <option value="Guatemala">Guatemala</option>
+                <option value="Guinea">Guinea</option>
+                <option value="Guinea-Bissau">Guinea-Bissau</option>
+                <option value="Guyana">Guyana</option>
+                <option value="Haiti">Haiti</option>
+                <option value="Honduras">Honduras</option>
+                <option value="Hungary">Hungary</option>
+                <option value="Iceland">Iceland</option>
+                <option value="India">India</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Iran">Iran</option>
+                <option value="Iraq">Iraq</option>
+                <option value="Ireland">Ireland</option>
+                <option value="Israel">Israel</option>
+                <option value="Italy">Italy</option>
+                <option value="Jamaica">Jamaica</option>
+                <option value="Japan">Japan</option>
+                <option value="Jordan">Jordan</option>
+                <option value="Kazakhstan">Kazakhstan</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Kiribati">Kiribati</option>
+                <option value="Korea, North">Korea, North</option>
+                <option value="Korea, South">Korea, South</option>
+                <option value="Kosovo">Kosovo</option>
+                <option value="Kuwait">Kuwait</option>
+                <option value="Kyrgyzstan">Kyrgyzstan</option>
+                <option value="Laos">Laos</option>
+                <option value="Latvia">Latvia</option>
+                <option value="Lebanon">Lebanon</option>
+                <option value="Lesotho">Lesotho</option>
+                <option value="Liberia">Liberia</option>
+                <option value="Libya">Libya</option>
+                <option value="Liechtenstein">Liechtenstein</option>
+                <option value="Lithuania">Lithuania</option>
+                <option value="Luxembourg">Luxembourg</option>
+                <option value="Macedonia">Macedonia</option>
+                <option value="Madagascar">Madagascar</option>
+                <option value="Malawi">Malawi</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Maldives">Maldives</option>
+                <option value="Mali">Mali</option>
+                <option value="Malta">Malta</option>
+                <option value="Marshall Islands">Marshall Islands</option>
+                <option value="Mauritania">Mauritania</option>
+                <option value="Mauritius">Mauritius</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
+                <option value="Moldova">Moldova</option>
+                <option value="Monaco">Monaco</option>
+                <option value="Mongolia">Mongolia</option>
+                <option value="Montenegro">Montenegro</option>
+                <option value="Morocco">Morocco</option>
+                <option value="Mozambique">Mozambique</option>
+                <option value="Myanmar (Burma)">Myanmar (Burma)</option>
+                <option value="Namibia">Namibia</option>
+                <option value="Nauru">Nauru</option>
+                <option value="Nepal">Nepal</option>
+                <option value="Netherlands">Netherlands</option>
+                <option value="New Zealand">New Zealand</option>
+                <option value="Nicaragua">Nicaragua</option>
+                <option value="Niger">Niger</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Norway">Norway</option>
+                <option value="Oman">Oman</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Palau">Palau</option>
+                <option value="Panama">Panama</option>
+                <option value="Papua New Guinea">Papua New Guinea</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Peru">Peru</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Poland">Poland</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Romania">Romania</option>
+                <option value="Russia">Russia</option>
+                <option value="Rwanda">Rwanda</option>
+                <option value="Taiwan">Taiwan</option>
+                <option value="Tajikistan">Tajikistan</option>
+                <option value="Tanzania">Tanzania</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Togo">Togo</option>
+                <option value="Tonga">Tonga</option>
+                <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                <option value="Tunisia">Tunisia</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Turkmenistan">Turkmenistan</option>
+                <option value="Tuvalu">Tuvalu</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Ukraine">Ukraine</option>
+                <option value="United Arab Emirates">United Arab Emirates</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="United States">United States</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Uzbekistan">Uzbekistan</option>
+                <option value="Vanuatu">Vanuatu</option>
+                <option value="Vatican City">Vatican City</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Vietnam">Vietnam</option>
+                <option value="Yemen">Yemen</option>
+                <option value="Zambia">Zambia</option>
+                <option value="Zimbabwe">Zimbabwe</option>
+              </select>
+            </div>
+            <div class="col-lg-7">
+              <label>Company</label>
+              <input class="form-controls" type="text" name="company" required="" />
+            </div>
+            <div class="col-lg-6">
+              <label>Project</label>
+              <select class="form-controls" name="project" required="">
+                <option value="Select Project">Select Project</option>
+                <option value="Web development">Web development</option>
+                <option value="Mobile application development">Mobile application development</option>
+                <option value="Desktop application development">Desktop application development</option>
+                <option value="Web hosting">Web hosting</option>
+                <option value="Site maintenance">Site maintenance</option>
+                <option value="Corporate branding">Corporate branding</option>
+                <option value="Graphics design">Graphics design</option>
+              </select>
+            </div>
+            <div class="col-lg-6"></div>
+            <div class="col-lg-12">
+              <label>Project description/Message</label>
+              <textarea class="form-controls" name="message" required=""></textarea>
+            </div>
+            <div class="col-lg-12">
+              <input type="radio" name="privacy-policy" required="" />
+              <label>I agree to nimbbly
+                <a href="pnp.html" target="_blank">privacy policy</a>
+              </label>
+            </div>
+
+          </div>
+        </div>
+
+
+
+      </div>
+      <div class="modal-footer">
+        <input type="submit" value=" Send " />
+      </div>
+    </form>
+    <!-- nimbbly Form -->
+
       </div>
     </div>
-    <!--modal end-->
+  </div>
+  <!--modal end-->
 
 
-    <header>
-        <!-- Navigation -->
+  <header>
+    <!-- Navigation -->
     <nav class="navbars fixed-top">
       <div class="container">
         <div class="row">
           <div class="col-6 text-left">
-            <a href="index.html" class="text-white"><img src="https://res.cloudinary.com/duw1ccgzp/image/upload/v1548947374/nimbbly/nimllogo.png"></a>
+            <a href="index.html" class="text-white">
+              <img src="https://res.cloudinary.com/duw1ccgzp/image/upload/v1548947374/nimbbly/nimllogo.png">
+            </a>
           </div>
           <div class="col-6 text-right">
-              <button type="button" class="btn btn-default  nav-button" data-toggle="modal" data-target="#ModalCenter1"> HIRE US </button>
+            <button type="button" class="btn btn-default  nav-button" data-toggle="modal" data-target="#ModalCenter1"> HIRE US </button>
           </div>
         </div>
-          
-        </div>
+
+      </div>
       </div>
     </nav>
 
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-6 text-white">
-            <h1 class="header-text">Let's do the work for you, let's give that business a web presence.</h1>
-          </div>
-          <div class="col-lg-6"></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 text-white">
+          <h1 class="header-text">Let's do the work for you, let's give that business a web presence.</h1>
+        </div>
+        <div class="col-lg-6"></div>
+      </div>
+    </div>
+  </header>
+
+  <section id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 text-center py-3">
+          <img class="img-icon p-1" src="https://res.cloudinary.com/duw1ccgzp/image/upload/v1548947363/nimbbly/a3.png" style="width: 80px; height: 80px;">
+        </div>
+        <div class="col-lg-4 py-3">
+          <article class="text-infos">
+            <h4>Web Hosting</h4>
+            <p>We handle web hosting using reliable, resillient, low-latency and top-notch cloud service providers.</p>
+          </article>
+        </div>
+        <div class="col-lg-2 text-center py-3">
+          <img class="img-icon p-1" src="https://res.cloudinary.com/duw1ccgzp/image/upload/v1548947363/nimbbly/a2.png" style="width: 80px; height: 80px;">
+        </div>
+        <div class="col-lg-4 py-3">
+          <article class="text-infos">
+            <h4>Web Maintenance</h4>
+            <p>Maintaining your website will always be a tall order, but nimbbly can at least make it easy. Our team are focused
+              on speeding up your site, tighten up security, check for compatibility & so on.</p>
+          </article>
+        </div>
+
+        <div class="col-lg-2 text-center py-3">
+          <img class="img-icon p-1" src="https://res.cloudinary.com/duw1ccgzp/image/upload/v1548947367/nimbbly/a8.png" style="width: 80px; height: 80px;">
+        </div>
+        <div class="col-lg-4 py-3">
+          <article class="text-infos">
+            <h4> Web Security</h4>
+            <p>We ensure that all data passed between the web server and browsers remain private and integral by providing our
+              clients with SSL security.</p>
+          </article>
+        </div>
+        <div class="col-lg-6 text-center">
         </div>
       </div>
-    </header>
+    </div>
+  </section>
 
-    <section id="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-2 text-center py-3">
-            <img class="img-icon p-1" src="https://res.cloudinary.com/duw1ccgzp/image/upload/v1548947363/nimbbly/a3.png" style="width: 80px; height: 80px;">
-          </div>
-          <div class="col-lg-4 py-3">
-            <article class="text-infos">
-              <h4>Web Hosting</h4>
-              <p>We handle web hosting using reliable, resillient, low-latency and top-notch cloud service providers.</p>
-            </article>
-          </div>
-          <div class="col-lg-2 text-center py-3">
-            <img class="img-icon p-1" src="https://res.cloudinary.com/duw1ccgzp/image/upload/v1548947363/nimbbly/a2.png" style="width: 80px; height: 80px;">
-          </div>
-          <div class="col-lg-4 py-3">
-            <article class="text-infos">
-              <h4>Web Maintenance</h4>
-              <p>Maintaining your website will always be a tall order, but nimbbly can at least make it easy. Our team are focused on speeding up your site, tighten up security, check for compatibility & so on.</p>
-            </article>
-          </div>
-          
-          <div class="col-lg-2 text-center py-3">
-            <img class="img-icon p-1" src="https://res.cloudinary.com/duw1ccgzp/image/upload/v1548947367/nimbbly/a8.png" style="width: 80px; height: 80px;">
-          </div>
-          <div class="col-lg-4 py-3">
-            <article class="text-infos">
-              <h4> Web Security</h4>
-              <p>We ensure that all data passed between the web server and browsers remain private and integral by providing our clients with SSL security.</p>
-            </article>
-          </div>
-          <div class="col-lg-6 text-center">
+  <footer id="contact" class="text-white ">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 pp abouts">
+          <img src="https://res.cloudinary.com/duw1ccgzp/image/upload/v1548947374/nimbbly/nimllogo.png">
+          <p>We offer a great dimension of user-centered digital products and service for our customers. Our crew consist of
+            agile and skillful developers. We offer you brilliant concepts and deliver projects on time.</p>
+          <p>
+            <i class="fa fa-envelope-o"></i> support@nimbbly.com</p>
+          <div class="smedia">
+            <a href="#">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-medium"></i>
+            </a>
           </div>
         </div>
-      </div>
-    </section>
-
-    <footer id="contact" class="text-white ">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 pp abouts">
-            <img src="https://res.cloudinary.com/duw1ccgzp/image/upload/v1548947374/nimbbly/nimllogo.png">
-            <p>We offer a great dimension of user-centered digital products and service for our customers. Our crew consist of agile and skillful developers. We offer you brilliant concepts and deliver projects on time.</p>
-            <p><i class="fa fa-envelope-o"></i> support@nimbbly.com</p>
-            <div class="smedia">
-              <a href="#"><i class="fa fa-facebook"></i></a>
-              <a href="#"><i class="fa fa-twitter"></i></a>
-              <a href="#"><i class="fa fa-linkedin"></i></a>
-              <a href="#"><i class="fa fa-instagram"></i></a>
-              <a href="#"><i class="fa fa-medium"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-2 pp servi">
-            <ul class="list-unstyled">
-              <li>About</li>
-              <li>Services</li>
-              <li>Budding</li>
-              <li>Blog</li>
-              <li>Contact us</li>
-            </ul>
-          </div>
-          <div class="col-lg-3 pp location">
-            <ul class="list-unstyled">
-              <li><i class="fa fa-phone"></i> +234 8166 092 467</li>
-              <li><i class="fa fa-location-arrow"></i> 36 Anthony Ajayi, Onike.</li>
-              <li><i class="fa fa-globe"></i> Lagos, Nigeria.</li>
-              <br />
-              <li><i class="fa fa-phone"></i> +15622415316</li>
-              <li><i class="fa fa-location-arrow"></i> 11740 Wilshire Blvd</li>
-              <li><i class="fa fa-globe"></i> los angeles, USA.</li>
-            </ul>
-          </div>
-          <div class="col-lg-3 pp coment">
-            <h4>Let's get your business a software today, just click the button below.</h4>
-            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#ModalCenter1"> HIRE US </button>
-          </div>
+        <div class="col-lg-2 pp servi">
+          <ul class="list-unstyled">
+            <li>About</li>
+            <li>Services</li>
+            <li>Budding</li>
+            <li>Blog</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 pp location">
+          <ul class="list-unstyled">
+            <li>
+              <i class="fa fa-phone"></i> +234 8166 092 467</li>
+            <li>
+              <i class="fa fa-location-arrow"></i> 36 Anthony Ajayi, Onike.</li>
+            <li>
+              <i class="fa fa-globe"></i> Lagos, Nigeria.</li>
+            <br />
+            <li>
+              <i class="fa fa-phone"></i> +15622415316</li>
+            <li>
+              <i class="fa fa-location-arrow"></i> 11740 Wilshire Blvd</li>
+            <li>
+              <i class="fa fa-globe"></i> los angeles, USA.</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 pp coment">
+          <h4>Let's get your business a software today, just click the button below.</h4>
+          <button type="button" class="btn btn-default" data-toggle="modal" data-target="#ModalCenter1"> HIRE US </button>
         </div>
       </div>
-      <div class="container-fluid py-2">
-        <div class="row">
-          <div class="col-6">
-            <small>Copyright &copy; reserved 2019</small>
-          </div>
-          <div class="col-6 text-right">
-            <small>Designed @ nimbbly</small>
-          </div>
+    </div>
+    <div class="container-fluid py-2">
+      <div class="row">
+        <div class="col-6">
+          <small>Copyright &copy; reserved 2019</small>
+        </div>
+        <div class="col-6 text-right">
+          <small>Designed @ nimbbly</small>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
 
-    <!--my script -->
-    <script>
-      $(function() {
-          var nav = $(".navbars");
-          $(window).scroll(function() {    
-              var scroll = $(window).scrollTop();
-          
-              if (scroll >= 10) {
-                  nav.removeClass('navbars').addClass("navbars-alt");
-              } else {
-                  nav.removeClass("navbars-alt").addClass('navbars');
-              }
-          });
+  <!--my script -->
+  <script>
+    $(function () {
+      var nav = $(".navbars");
+      $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 10) {
+          nav.removeClass('navbars').addClass("navbars-alt");
+        } else {
+          nav.removeClass("navbars-alt").addClass('navbars');
+        }
       });
+    });
 
-      $(function() {
-          var a = $(".nav-button");
-          $(window).scroll(function() {    
-              var scroll = $(window).scrollTop();
-          
-              if (scroll >= 10) {
-                  a.removeClass('nav-button').addClass("nav-button-alt");
-              } else {
-                  a.removeClass("nav-button-alt").addClass('nav-button');
-              }
-          });
+    $(function () {
+      var a = $(".nav-button");
+      $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 10) {
+          a.removeClass('nav-button').addClass("nav-button-alt");
+        } else {
+          a.removeClass("nav-button-alt").addClass('nav-button');
+        }
       });
-    </script>
+    });
+  </script>
 
-    <script>
-      window.sr = ScrollReveal();
-      sr.reveal('.header-text', {
-          duration: 2000,
-          origin:'left',
-        });
-      sr.reveal('.img-icon', {
-          duration: 2000,
-          origin:'left',
-          distance:'100px',
-        });
-        sr.reveal('.text-infos', {
-          duration: 2000,
-          origin:'bottom',
-          distance:'100px',
-        });
-    </script>
+  <script>
+    window.sr = ScrollReveal();
+    sr.reveal('.header-text', {
+      duration: 2000,
+      origin: 'left',
+    });
+    sr.reveal('.img-icon', {
+      duration: 2000,
+      origin: 'left',
+      distance: '100px',
+    });
+    sr.reveal('.text-infos', {
+      duration: 2000,
+      origin: 'bottom',
+      distance: '100px',
+    });
+  </script>
+  <script>
+    $("#hire").submit(function (e) {
+      e.preventDefault();
 
-  </body>
+      var $form = $(this);
+      $.post($form.attr("action"), $form.serialize()).then(function () {
+        window.location = "/pages/thankyou.html/";
+      });
+    });
+
+  </script>
+</body>
 
 </html>
