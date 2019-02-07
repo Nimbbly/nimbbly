@@ -67,7 +67,7 @@
           </button>
         </div>
        <!-- nimbbly Form -->
-       <form name="hire-us" id="hire" netlify-honeypot="bot-field" method="POST" netlify>
+       <form name="hire-us4" id="hire" netlify-honeypot="bot-field" method="POST" netlify>
         <div class="modal-body">
 
           <div class="container-fluid">
@@ -771,26 +771,7 @@
     });
   </script>
 
-<script>
-  $("#hire").submit(function(e) {
-e.preventDefault();
-
-var $form = $(this);
-$.post($form.attr("action"), $form.serialize()).then(function() {
-  window.location = "/pages/thankyou.html/";
-});
-});
-
-
-$("#bud").submit(function(e) {
-e.preventDefault();
-
-var $form = $(this);
-$.post($form.attr("action"), $form.serialize()).then(function() {
-  window.location = "/pages/thankyou.html/";
-});
-});
-</script>
+<script src="js/forms.js"></script>
 
 </body>
 
