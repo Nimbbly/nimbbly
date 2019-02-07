@@ -67,7 +67,7 @@
           </button>
         </div>
        <!-- nimbbly Form -->
-       <form name="hire-us4" id="hire" netlify-honeypot="bot-field" method="POST" netlify>
+       <form name="hire-us" id="hire" netlify-honeypot="bot-field" method="POST" netlify>
         <div class="modal-body">
 
           <div class="container-fluid">
@@ -393,7 +393,7 @@
           </button>
         </div>
         <!-- nimbbly Form -->
-        <form name="budding2" id="bud" netlify-honeypot="bot-field" method="POST" netlify>
+        <form name="budding" id="bud" netlify-honeypot="bot-field" method="POST" netlify>
           <div class="modal-body">
             <div class="container-fluid">
               <div class="row">
@@ -771,26 +771,12 @@
     });
   </script>
 
-<script>
-    $("#hire").submit(function(e) {
-  e.preventDefault();
-
-  var $form = $(this);
-  $.post($form.attr("action"), $form.serialize()).then(function() {
-    window.location = "/pages/thankyou.html/";
-  });
-});
+     <!-- Load jquery -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 
-$("#bud").submit(function(e) {
-  e.preventDefault();
-
-  var $form = $(this);
-  $.post($form.attr("action"), $form.serialize()).then(function() {
-    window.location = "/pages/thankyou.html/";
-  });
-});
-</script>
+     <script src="js/forms.js">
+     </script>
 
 </body>
 
